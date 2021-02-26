@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": false,
+    "lives": {
+      ".indexOn": [
+        "tags",
+        "datetime"
+      ]
+    }
+  }
+}
