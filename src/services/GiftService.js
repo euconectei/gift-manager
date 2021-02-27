@@ -1,10 +1,9 @@
 import { db } from "./firebase";
 
 const GiftService = {
-  addItem: (name) => {
+  addItem: (name, done, group, presenter) => {
     const newItemKey = db.push().key;
-    console.log({ newItemKey, name });
-    return db.child(newItemKey).update({ item: name });
+    return db.child(newItemKey).update({ name, done, group, presenter });
   },
   // addItem: (name) => {},
   // addItem: (name) => {},
