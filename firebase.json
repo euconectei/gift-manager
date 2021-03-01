@@ -3,7 +3,8 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "public",
+    "site": "gift-manager",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

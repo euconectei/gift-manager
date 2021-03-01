@@ -2,6 +2,7 @@ import React, { useEffect, useContext, useState } from "react";
 
 import { Redirect } from "react-router-dom";
 import GiftCreate from "../../components/gift/create";
+import GiftList from "../../components/gift/list";
 import { UserContext } from "../../providers/UserProvider";
 import { logOut } from "../../services/firebase";
 const Admin = () => {
@@ -30,6 +31,7 @@ const Admin = () => {
       </button>
 
       <GiftCreate />
+      <GiftList />
     </div>
   );
 };
