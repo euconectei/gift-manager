@@ -1,7 +1,33 @@
 body {
   background-color: #bd9372;
+  font-family: Lora, Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 .box {
   background-color: #fef6e1;
+}
+
+.text {
+  color: #725e57;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  color: #f98799;
+  font-family: "Pinyon Script", cursive;
+  font-size: 48px;
+  text-align: center;
+}
+.info {
+  color: #f98799;
+  font-weight: bold;
+  text-align: center;
+}
+
+.convite {
+  font-style: italic;
+  color: #725e57;
+  text-align: center;
 }
