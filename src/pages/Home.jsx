@@ -22,6 +22,8 @@ const Home = () => (
       <div className='convite mt-2 mb-2'>
         Venha celebrar conosco essa nova fase das nossas vidas!!!
       </div>
+      <hr />
+      <div className='text text-left'>Lista de presentes:</div>
       <GiftListShort />
     </div>
   </div>
