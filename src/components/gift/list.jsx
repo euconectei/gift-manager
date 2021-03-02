@@ -18,7 +18,7 @@ const GiftList = () => {
   return (
     <div className='card'>
       <h2>List Items</h2>
-      <table class='table table-bordered'>
+      <table className='table table-bordered'>
         <thead>
           <th>Já ganhou?</th>
           <th>Item</th>

@@ -3,7 +3,7 @@ import React from "react";
 const GiftTable = ({ data, group }) => (
   <>
     <h2>{group}</h2>
-    <table class='table table-bordered'>
+    <table className='table table-bordered'>
       <thead>
         <th>Já ganhou?</th>
         <th>Item</th>

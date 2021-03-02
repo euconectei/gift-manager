@@ -1,6 +1,9 @@
 import React from "react";
 import GiftListShort from "../components/gift/list-short";
 import "./Home.css";
+import logoAmericanas from "../assets/logos/americanas-logo.png";
+import logoPontoFrio from "../assets/logos/pontofrio-logo.png";
+import logoCamicado from "../assets/logos/camicado-logo.png";
 
 const Home = () => (
   <div className='container'>
@@ -23,7 +26,39 @@ const Home = () => (
         Venha celebrar conosco essa nova fase das nossas vidas!!!
       </div>
       <hr />
-      <div className='text text-left'>Lista de presentes:</div>
+      <h2>Listas de presentes online:</h2>
+      <ul className='list-unstyled logos-sites p-4'>
+        <li>
+          <a
+            href='http://americanas.com'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <img
+              src={logoAmericanas}
+              alt='americanas.com'
+              className='img-fluid'
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href='http://americanas.com'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <img src={logoCamicado} alt='Camicado' className='img-fluid' />
+          </a>
+        </li>
+        <li>
+          <a
+            href='http://americanas.com'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <img src={logoPontoFrio} alt='Ponto Frio' className='img-fluid' />
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <h2>Lista de presentes avulsos:</h2>
       <GiftListShort />
     </div>
   </div>

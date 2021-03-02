@@ -31,3 +31,13 @@ h1 {
   color: #725e57;
   text-align: center;
 }
+
+.logos-sites {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.table {
+  table-layout: fixed;
+}
